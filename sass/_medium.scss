@@ -1,0 +1,84 @@
+@media (min-width: 768px) {
+	.header {
+		background-image: url('../img/myface.png');
+		background-size: 90%;
+		background-repeat: no-repeat;
+		background-position: 480px -250px;
+		&__heading {
+			font-size: 2.4em;
+		}
+		&__text {
+			&--text {
+				font-size: 1.6em;
+			}
+		}
+
+		&__skills {
+			&--heading {
+				font-size: 1.8em;
+			}
+		}
+
+		&__img {
+			width: 75px;
+			height: 75px;
+		}
+
+		&__skillsimage {
+			transition: all 1.5s ease-in-out;
+		}
+
+		&__actionicons {
+			transform: translateX(300%);
+		}
+	}
+	.pages {
+		&__heading {
+			font-size: 2.4em;
+		}
+		&__text {
+			&--text {
+				font-size: 1.6em;
+			}
+		}
+		&__swiper {
+			width: 60vw;
+		}
+		&__dtp {
+			height: 50vh;
+			width: 90vw;
+		}
+
+		&__imagedtp {
+			height: 19vh;
+		}
+
+		&__pagewww {
+			height: 17vh;
+		}
+		.action {
+			width: 93vw;
+			height: 47vh;
+			top: 40vh;
+			left: 2vw;
+			right: 2vw;
+		}
+		.highslider {
+			position: absolute;
+			width: 90vw;
+			height: 100vh;
+			object-fit: cover;
+			top: 10vh;
+			bottom: 10vh;
+			left: 2vw;
+			right: 2vw;
+		}
+
+		.imgBig {
+			min-width: 52vw;
+			height: 78vh;
+			// object-fit: cover;
+			cursor: pointer;
+		}
+	}
+}

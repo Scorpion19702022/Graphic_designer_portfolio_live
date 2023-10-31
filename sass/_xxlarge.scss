@@ -1,0 +1,65 @@
+@media (min-width: 1400px) {
+	.header {
+		background-size: 42%;
+		background-repeat: no-repeat;
+		background-position: 1300px, -300px;
+		&__heading {
+			font-size: 3.6em;
+		}
+	}
+
+	.pages {
+		&__heading {
+			font-size: 3.6em;
+		}
+		&__box {
+			display: flex;
+			flex-direction: row;
+			height: 60vh;
+		}
+		&__text {
+			width: 32vw;
+			text-align: left;
+			margin: 0em 5em 1em 0em;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		&__swiper {
+			width: 30vw;
+			height: 60vh;
+		}
+		&__side {
+			display: flex;
+			justify-content: center;
+			&--img {
+				height: 55vh;
+			}
+		}
+
+		&__dtp,
+		&__www {
+			height: 63vh;
+			width: 48vw;
+		}
+
+		&__imagedtp {
+			height: 23vh;
+			object-fit: cover;
+		}
+
+		.action {
+			width: 90vw;
+			height: 93vh;
+			top: 3vh;
+			left: 4.2vw;
+		}
+		.highslider {
+			top: 20vh;
+		}
+		.imgBig {
+			min-width: 20vw;
+			height: 70vh;
+		}
+	}
+}
