@@ -79,6 +79,15 @@
   border: 0.04em solid var(--color-medium);
 }
 
+.contact {
+  height: 93vh;
+}
+
+.footer {
+  height: 7vh;
+  background-color: black;
+}
+
 *,
 *::before,
 *::after {
@@ -488,6 +497,79 @@ body {
 .pages .viewicon {
   display: none;
 }
+.pages__box-contact {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.pages__list--contact {
+  color: var(--color-extralight);
+  margin: 1em 0;
+  list-style-type: none;
+}
+.pages__list--contact i {
+  color: var(--color-light);
+  margin-right: 0.6em;
+}
+.pages__social {
+  z-index: 1;
+}
+.pages__social--heading {
+  font-size: 1em;
+  color: var(--color-extralight);
+}
+.pages__social-icon {
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pages__social-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.pages__social-list--social {
+  font-size: 2.6em;
+  list-style-type: none;
+}
+.pages__social-list--social i {
+  color: var(--color-light);
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.pages__social-list--social i:hover {
+  color: var(--color-extramedium);
+}
+
+.box-footer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-footer__years {
+  color: var(--color-light);
+}
 
 @media (min-width: 768px) {
   .header {
@@ -558,6 +640,9 @@ body {
     min-width: 52vw;
     height: 78vh;
     cursor: pointer;
+  }
+  .pages__list--contact {
+    font-size: 1.4em;
   }
 }
 @media (min-width: 1200px) {
@@ -636,6 +721,12 @@ body {
   .pages .imgBig {
     min-width: 40vw;
     height: 72vh;
+  }
+  .pages__social--heading {
+    font-size: 1.8em;
+  }
+  .pages__social-list--social {
+    font-size: 3.2em;
   }
 }
 @media (min-width: 1400px) {
